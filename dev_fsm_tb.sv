@@ -46,6 +46,8 @@ module dev_fsm_tb();
 		@(negedge clk) rst=1;
 		//skip one edge after reset
 		@(posedge clk);
+		// every proc bit !=0, two operand sum
+		write_transaction((1<<b_op_2)|(1<<b_addop)|(1<<b_subres)|(1<<b_subop)|(1<<b_addres),$random,$random,res);
 		// send two operands and add them to result
 		write_transaction((1<<b_op_1)|(1<<b_op_2)|(1<<b_addop),$random,$random,res);
 		// send one operand, add it to result and read the result back

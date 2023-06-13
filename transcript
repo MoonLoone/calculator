@@ -1,0 +1,112 @@
+# Loading project lab3
+# reading /home/moonlight/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+vsim work.dev_fsm_tb
+# vsim work.dev_fsm_tb 
+# Start time: 18:11:29 on Jun 13,2023
+# ** Error: (vsim-11) Could not find work.cmd_bits.
+# Error loading design
+# End time: 18:11:30 on Jun 13,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim work.tff_reg
+# vsim work.tff_reg 
+# Start time: 18:11:33 on Jun 13,2023
+# Loading sv_std.std
+# Loading work.tff_reg
+vlog -reportprogress 300 -work work /home/moonlight/mtica_projects/lab3/cmd_bits.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:12:22 on Jun 13,2023
+# vlog -reportprogress 300 -work work /home/moonlight/mtica_projects/lab3/cmd_bits.sv 
+# -- Compiling package cmd_bits
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:12:22 on Jun 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/moonlight/mtica_projects/lab3/dev_fsm.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:12:22 on Jun 13,2023
+# vlog -reportprogress 300 -work work /home/moonlight/mtica_projects/lab3/dev_fsm.sv 
+# -- Compiling package dev_fsm_sv_unit
+# -- Importing package cmd_bits
+# -- Compiling module dev_fsm
+# 
+# Top level modules:
+# 	dev_fsm
+# End time: 18:12:22 on Jun 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:12:22 on Jun 13,2023
+# vlog -reportprogress 300 -work work /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv 
+# -- Compiling package dev_fsm_tb_sv_unit
+# -- Importing package cmd_bits
+# -- Compiling module dev_fsm_tb
+# 
+# Top level modules:
+# 	dev_fsm_tb
+# End time: 18:12:22 on Jun 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/moonlight/mtica_projects/lab3/tff_reg.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:12:22 on Jun 13,2023
+# vlog -reportprogress 300 -work work /home/moonlight/mtica_projects/lab3/tff_reg.sv 
+# -- Compiling module tff_reg
+# 
+# Top level modules:
+# 	tff_reg
+# End time: 18:12:22 on Jun 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.dev_fsm_tb
+# End time: 18:12:36 on Jun 13,2023, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
+# vsim work.dev_fsm_tb 
+# Start time: 18:12:36 on Jun 13,2023
+# Loading sv_std.std
+# Loading work.cmd_bits
+# Loading work.dev_fsm_tb_sv_unit
+# Loading work.dev_fsm_tb
+# Loading work.dev_fsm_sv_unit
+# Loading work.dev_fsm
+add wave -position end sim:/dev_fsm_tb/dut/*
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv(56)
+#    Time: 250 ps  Iteration: 1  Instance: /dev_fsm_tb
+# Break in Module dev_fsm_tb at /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv line 56
+vlog -reportprogress 300 -work work /home/moonlight/mtica_projects/lab3/dev_fsm.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:41:05 on Jun 13,2023
+# vlog -reportprogress 300 -work work /home/moonlight/mtica_projects/lab3/dev_fsm.sv 
+# -- Compiling package dev_fsm_sv_unit
+# -- Importing package cmd_bits
+# -- Compiling module dev_fsm
+# 
+# Top level modules:
+# 	dev_fsm
+# End time: 19:41:05 on Jun 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.dev_fsm_sv_unit
+# Loading work.dev_fsm
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv(56)
+#    Time: 170 ps  Iteration: 1  Instance: /dev_fsm_tb
+# Break in Module dev_fsm_tb at /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv line 56
+vlog -reportprogress 300 -work work /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:47:26 on Jun 13,2023
+# vlog -reportprogress 300 -work work /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv 
+# -- Compiling package dev_fsm_tb_sv_unit
+# -- Importing package cmd_bits
+# -- Compiling module dev_fsm_tb
+# 
+# Top level modules:
+# 	dev_fsm_tb
+# End time: 19:47:27 on Jun 13,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.dev_fsm_tb_sv_unit
+# Loading work.dev_fsm_tb
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv(58)
+#    Time: 250 ps  Iteration: 1  Instance: /dev_fsm_tb
+# Break in Module dev_fsm_tb at /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv line 58

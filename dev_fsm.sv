@@ -40,18 +40,18 @@ module dev_fsm
 		ST_IDLE:
 			if (cs)
 			begin
-				if (din[b_op_1]) next_state = ST_RCV_1;
+				//if every proc bit !=0 transport to receive->proc branch
+				if (din[b_subres] && din[b_addres] && din[b_subop] && din[b_addop]) next_state = ST_RCV_1;
 				else if (din[b_op_2]) next_state = ST_RCV_2;
-				else next_state = ST_PROC;
+				else next_state = ST_TX;
 			end
 		ST_RCV_1:
-			if (cmd[b_op_2]) next_state = ST_RCV_2;
-			else next_state = ST_PROC;
-		ST_RCV_2:
 			next_state = ST_PROC;
-		ST_PROC:
+		ST_RCV_2:
 			if (cmd[b_tx]) next_state = ST_TX;
 			else next_state = ST_IDLE;
+		ST_PROC:
+			next_state = ST_IDLE;
 		ST_TX:
 			next_state = ST_IDLE;
 		default:
