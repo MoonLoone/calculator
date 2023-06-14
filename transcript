@@ -71,3 +71,5 @@ run -all
 # Compile of dev_fsm_tb.sv was successful.
 # Compile of tff_reg.sv was successful.
 # 4 compiles, 0 failed with no errors.
+# End time: 12:35:48 on Jun 14,2023, Elapsed time: 0:55:12
+# Errors: 0, Warnings: 2

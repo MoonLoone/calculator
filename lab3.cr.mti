@@ -7,6 +7,15 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	dev_fsm
 
+} {} {}} /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv {1 {vlog -work work -sv -stats=none /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package dev_fsm_tb_sv_unit
+-- Importing package cmd_bits
+-- Compiling module dev_fsm_tb
+
+Top level modules:
+	dev_fsm_tb
+
 } {} {}} /home/moonlight/mtica_projects/lab3/tff_reg.sv {1 {vlog -work work -sv -stats=none /home/moonlight/mtica_projects/lab3/tff_reg.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module tff_reg
