@@ -1,0 +1,73 @@
+# Loading project lab3
+# Compile of cmd_bits.sv was successful.
+# Compile of dev_fsm.sv was successful.
+# Compile of dev_fsm_tb.sv was successful.
+# Compile of tff_reg.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.dev_fsm_tb
+# vsim work.dev_fsm_tb 
+# Start time: 11:40:36 on Jun 14,2023
+# Loading sv_std.std
+# Loading work.cmd_bits
+# Loading work.dev_fsm_tb_sv_unit
+# Loading work.dev_fsm_tb
+# Loading work.dev_fsm_sv_unit
+# Loading work.dev_fsm
+add wave -position end sim:/dev_fsm_tb/dut/*
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv(67)
+#    Time: 530 ps  Iteration: 1  Instance: /dev_fsm_tb
+# Break in Module dev_fsm_tb at /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv line 67
+# Compile of cmd_bits.sv was successful.
+# Compile of dev_fsm.sv was successful.
+# Compile of dev_fsm_tb.sv was successful.
+# Compile of tff_reg.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cmd_bits
+# Loading work.dev_fsm_tb_sv_unit
+# Loading work.dev_fsm_tb
+# Loading work.dev_fsm_sv_unit
+# Loading work.dev_fsm
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv(67)
+#    Time: 590 ps  Iteration: 1  Instance: /dev_fsm_tb
+# Break in Module dev_fsm_tb at /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv line 67
+# Compile of cmd_bits.sv was successful.
+# Compile of dev_fsm.sv was successful.
+# Compile of dev_fsm_tb.sv was successful.
+# Compile of tff_reg.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cmd_bits
+# Loading work.dev_fsm_tb_sv_unit
+# Loading work.dev_fsm_tb
+# Loading work.dev_fsm_sv_unit
+# Loading work.dev_fsm
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv(67)
+#    Time: 610 ps  Iteration: 1  Instance: /dev_fsm_tb
+# Break in Module dev_fsm_tb at /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv line 67
+# Compile of cmd_bits.sv was successful.
+# Compile of dev_fsm.sv was successful.
+# Compile of dev_fsm_tb.sv was successful.
+# Compile of tff_reg.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cmd_bits
+# Loading work.dev_fsm_tb_sv_unit
+# Loading work.dev_fsm_tb
+# Loading work.dev_fsm_sv_unit
+# Loading work.dev_fsm
+run -all
+# ** Note: $stop    : /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv(69)
+#    Time: 690 ps  Iteration: 1  Instance: /dev_fsm_tb
+# Break in Module dev_fsm_tb at /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv line 69
+# Compile of cmd_bits.sv was successful.
+# Compile of dev_fsm.sv was successful.
+# Compile of dev_fsm_tb.sv was successful.
+# Compile of tff_reg.sv was successful.
+# 4 compiles, 0 failed with no errors.

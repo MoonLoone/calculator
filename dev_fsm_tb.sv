@@ -46,12 +46,25 @@ module dev_fsm_tb();
 		@(negedge clk) rst=1;
 		//skip one edge after reset
 		@(posedge clk);
-		// send two operands and add them to result
-		write_transaction((1<<b_op_1)|(1<<b_op_2)|(1<<b_addop),$random,$random,res);
-		// send one operand, add it to result and read the result back
-		write_transaction((1<<b_op_1)|(1<<b_addres)|(1<<b_tx),$random,0,res);
+		// Custom
+		//1) write second operand for tests
+		write_transaction((1<<b_op_2),0,$random,res); 
+		//2) two operand sum
+		write_transaction((1<<b_op_2)|(1<<b_addop),$random,$random,res);
+		//3) read result
+		write_transaction((1<<b_tx),0,0,res);
+		//4) add operand to result
+		write_transaction((1<<b_addres),$random,$random,res);
+		//5) write second operand for tests
+		write_transaction((1<<b_op_2)|(1<<b_tx),0,$random,res); 
+		//6) sub operator
+		write_transaction((1<<b_subres),$random,0,res);
+		//read result
+		write_transaction((1<<b_tx),0,0,res);
+		//8) write 2 operand and read result
+		write_transaction((1<<b_tx)|(1<<b_op_2),0,0,res);
 		//wait couple clock cycles
-		repeat (2) @(posedge clk);
+		repeat (5) @(posedge clk);
 		//stop simulation
 		$stop;
 	end
@@ -74,7 +87,7 @@ module dev_fsm_tb();
 			@(posedge clk);
 			cs=0;
 			//write op_1 if required and wait for one clock cycle
-			if (cmd[b_op_1]) 
+			if (cmd[b_subres] || cmd[b_addres] || cmd[b_subop] || cmd[b_addop])
 			begin 
 				din=op_1;
 				@(posedge clk);
