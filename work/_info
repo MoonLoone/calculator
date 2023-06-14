@@ -11,149 +11,149 @@ cModel Technology
 d/home/moonlight/mtica_projects/lab2
 Xcmd_bits
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1686669142
+Z1 !s110 1686725004
 !i10b 1
 !s100 JQdePUS_EeIlBKQDAU@4]1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-ImCQ_:me^m[RZ4^I[N;o9K2
-VmCQ_:me^m[RZ4^I[N;o9K2
+I4Ii[FSNGRcC_GE9I7Dbf83
+V4Ii[FSNGRcC_GE9I7Dbf83
 S1
 Z3 d/home/moonlight/mtica_projects/lab3
 w1685718920
 8/home/moonlight/mtica_projects/lab3/cmd_bits.sv
 F/home/moonlight/mtica_projects/lab3/cmd_bits.sv
-!i122 4
+!i122 146
 L0 1 0
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1686669142.000000
+Z5 !s108 1686725004.000000
 !s107 /home/moonlight/mtica_projects/lab3/cmd_bits.sv|
-!s90 -reportprogress|300|-work|work|/home/moonlight/mtica_projects/lab3/cmd_bits.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/moonlight/mtica_projects/lab3/cmd_bits.sv|
 !i113 1
-Z6 o-work work
+Z6 o-work work -sv
 Z7 tCvgOpt 0
 vdev_fsm
 R0
-Z8 DXx4 work 8 cmd_bits 0 22 mCQ_:me^m[RZ4^I[N;o9K2
-DXx4 work 15 dev_fsm_sv_unit 0 22 Vi6Zbizh<eA0LEc;<lF5?0
-Z9 !s110 1686674465
-Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z8 DXx4 work 8 cmd_bits 0 22 4Ii[FSNGRcC_GE9I7Dbf83
+DXx4 work 15 dev_fsm_sv_unit 0 22 o[mdV@VFT`hF;OnP^J]ZV1
+R1
+Z9 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
 !i10b 1
-!s100 [hVi:MKYmcfJ=^GS[HW;W1
-IRamD?e;CUdzFa2RMS<eE<0
+!s100 lDQE^a>WC>X>joloE0<Ej3
+IHO[KHagYlbF4z3ffAMO<`0
 !s105 dev_fsm_sv_unit
 S1
 R3
-Z11 w1686674458
-Z12 8/home/moonlight/mtica_projects/lab3/dev_fsm.sv
-Z13 F/home/moonlight/mtica_projects/lab3/dev_fsm.sv
-!i122 8
-L0 4 102
+Z10 w1686722732
+Z11 8/home/moonlight/mtica_projects/lab3/dev_fsm.sv
+Z12 F/home/moonlight/mtica_projects/lab3/dev_fsm.sv
+!i122 147
+L0 4 103
 R4
 31
-Z14 !s108 1686674465.000000
-Z15 !s107 /home/moonlight/mtica_projects/lab3/dev_fsm.sv|
-Z16 !s90 -reportprogress|300|-work|work|/home/moonlight/mtica_projects/lab3/dev_fsm.sv|
+R5
+Z13 !s107 /home/moonlight/mtica_projects/lab3/dev_fsm.sv|
+Z14 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/moonlight/mtica_projects/lab3/dev_fsm.sv|
 !i113 1
 R6
 R7
 Xdev_fsm_sv_unit
 R0
 R8
-R9
-VVi6Zbizh<eA0LEc;<lF5?0
+R1
+Vo[mdV@VFT`hF;OnP^J]ZV1
 r1
 !s85 0
 !i10b 1
-!s100 `Y:E[zJ^SRNAY4A``S8_]3
-IVi6Zbizh<eA0LEc;<lF5?0
+!s100 S65jc7=RV:e9lL3O;ZFR=0
+Io[mdV@VFT`hF;OnP^J]ZV1
 !i103 1
 S1
 R3
+R10
 R11
 R12
-R13
-!i122 8
+!i122 147
 L0 2 0
 R4
 31
+R5
+R13
 R14
-R15
-R16
 !i113 1
 R6
 R7
 vdev_fsm_tb
 R0
 R8
-DXx4 work 18 dev_fsm_tb_sv_unit 0 22 Wf>i06za69DHWHOjm2Bnz0
-Z17 !s110 1686674847
-R10
+DXx4 work 18 dev_fsm_tb_sv_unit 0 22 3RTQ<MNK?40IlFTiO_UF71
+R1
+R9
 r1
 !s85 0
 !i10b 1
-!s100 @5_XQVM<oGzdeA;?^nfi<1
-IZ]g_>eWgH5GMDQ7Sb8i=k3
+!s100 bSc@1bkTj9iH9Z?^IXUfL3
+IoKVYF=JGP@OURRVLBkh^M2
 !s105 dev_fsm_tb_sv_unit
 S1
 R3
-Z18 w1686674834
-Z19 8/home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv
-Z20 F/home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv
-!i122 9
-L0 6 95
+Z15 w1686725002
+Z16 8/home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv
+Z17 F/home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv
+!i122 148
+L0 6 104
 R4
 31
-Z21 !s108 1686674846.000000
-!s107 /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv|
-Z22 !s90 -reportprogress|300|-work|work|/home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv|
+R5
+Z18 !s107 /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv|
 !i113 1
 R6
 R7
 Xdev_fsm_tb_sv_unit
 R0
 R8
-R17
-VWf>i06za69DHWHOjm2Bnz0
+R1
+V3RTQ<MNK?40IlFTiO_UF71
 r1
 !s85 0
 !i10b 1
-!s100 ><HY_<aeJ?AFME@`UJ?gA2
-IWf>i06za69DHWHOjm2Bnz0
+!s100 @4cgN31ILYQ=j>5N]fbVj0
+I3RTQ<MNK?40IlFTiO_UF71
 !i103 1
 S1
 R3
-R18
-R19
-R20
-!i122 9
+R15
+R16
+R17
+!i122 148
 L0 4 0
 R4
 31
-R21
-Z23 !s107 /home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv|
-R22
+R5
+R18
+R19
 !i113 1
 R6
 R7
 vtff_reg
 R0
-R1
+!s110 1686725005
 !i10b 1
 !s100 UVJT>NRhPQ3aKBFL?7`mM3
 R2
-I@ghIg9diI3>aT7mnSez;`0
-R10
+I=FBKUgj2Gg1AaR[DSz4@D1
+R9
 S1
 R3
 w1685718921
 8/home/moonlight/mtica_projects/lab3/tff_reg.sv
 F/home/moonlight/mtica_projects/lab3/tff_reg.sv
-!i122 7
+!i122 149
 L0 1 10
 R4
 r1
@@ -161,7 +161,7 @@ r1
 31
 R5
 !s107 /home/moonlight/mtica_projects/lab3/tff_reg.sv|
-!s90 -reportprogress|300|-work|work|/home/moonlight/mtica_projects/lab3/tff_reg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/moonlight/mtica_projects/lab3/tff_reg.sv|
 !i113 1
 R6
 R7

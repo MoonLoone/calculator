@@ -40,8 +40,8 @@ module dev_fsm
 		ST_IDLE:
 			if (cs)
 			begin
-				//if every proc bit !=0 transport to receive->proc branch
-				if (din[b_subres] && din[b_addres] && din[b_subop] && din[b_addop]) next_state = ST_RCV_1;
+				//if proc bit !=0 transport to receive->proc branch
+				if (din[b_subres] || din[b_addres] || din[b_subop] || din[b_addop]) next_state = ST_RCV_1;
 				else if (din[b_op_2]) next_state = ST_RCV_2;
 				else next_state = ST_TX;
 			end
@@ -88,13 +88,14 @@ module dev_fsm
 			ST_RCV_2:
 				//store operand 2
 				op_2<=din;
-			ST_PROC:
+			ST_PROC: 
 				//change result register according to opcode
 				case (cmd[DW - 1:DW - 4])
 					4'b1000: result <= op_1 + op_2;
 					4'b0100: result <= op_1 - op_2;
 					4'b0010: result <= result + op_1;
 					4'b0001: result <= result - op_1;
+					default: $strobe("ERROR with operation %b", cmd[DW - 1:DW - 4]);
 				endcase
 			endcase
 		end
