@@ -11,7 +11,7 @@ cModel Technology
 d/home/moonlight/mtica_projects/lab2
 Xcmd_bits
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1686725004
+Z1 !s110 1686735230
 !i10b 1
 !s100 JQdePUS_EeIlBKQDAU@4]1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,13 +22,13 @@ Z3 d/home/moonlight/mtica_projects/lab3
 w1685718920
 8/home/moonlight/mtica_projects/lab3/cmd_bits.sv
 F/home/moonlight/mtica_projects/lab3/cmd_bits.sv
-!i122 146
+!i122 166
 L0 1 0
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1686725004.000000
+Z5 !s108 1686735230.000000
 !s107 /home/moonlight/mtica_projects/lab3/cmd_bits.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/moonlight/mtica_projects/lab3/cmd_bits.sv|
 !i113 1
@@ -51,7 +51,7 @@ R3
 Z10 w1686722732
 Z11 8/home/moonlight/mtica_projects/lab3/dev_fsm.sv
 Z12 F/home/moonlight/mtica_projects/lab3/dev_fsm.sv
-!i122 147
+!i122 167
 L0 4 103
 R4
 31
@@ -77,7 +77,7 @@ R3
 R10
 R11
 R12
-!i122 147
+!i122 167
 L0 2 0
 R4
 31
@@ -90,22 +90,22 @@ R7
 vdev_fsm_tb
 R0
 R8
-DXx4 work 18 dev_fsm_tb_sv_unit 0 22 3RTQ<MNK?40IlFTiO_UF71
+DXx4 work 18 dev_fsm_tb_sv_unit 0 22 9KjY2Jm`c8F;2MkLa9b@g2
 R1
 R9
 r1
 !s85 0
 !i10b 1
-!s100 bSc@1bkTj9iH9Z?^IXUfL3
-IoKVYF=JGP@OURRVLBkh^M2
+!s100 SddSToJbdB7^Dej<zW9X20
+Io__6oAI?;mE1i^BcOi7:63
 !s105 dev_fsm_tb_sv_unit
 S1
 R3
-Z15 w1686725002
+Z15 w1686735222
 Z16 8/home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv
 Z17 F/home/moonlight/mtica_projects/lab3/dev_fsm_tb.sv
-!i122 148
-L0 6 104
+!i122 168
+L0 6 106
 R4
 31
 R5
@@ -118,19 +118,19 @@ Xdev_fsm_tb_sv_unit
 R0
 R8
 R1
-V3RTQ<MNK?40IlFTiO_UF71
+V9KjY2Jm`c8F;2MkLa9b@g2
 r1
 !s85 0
 !i10b 1
-!s100 @4cgN31ILYQ=j>5N]fbVj0
-I3RTQ<MNK?40IlFTiO_UF71
+!s100 ?:ZV?FPj0RlH<l2YS:;gJ2
+I9KjY2Jm`c8F;2MkLa9b@g2
 !i103 1
 S1
 R3
 R15
 R16
 R17
-!i122 148
+!i122 168
 L0 4 0
 R4
 31
@@ -142,7 +142,7 @@ R6
 R7
 vtff_reg
 R0
-!s110 1686725005
+R1
 !i10b 1
 !s100 UVJT>NRhPQ3aKBFL?7`mM3
 R2
@@ -153,7 +153,7 @@ R3
 w1685718921
 8/home/moonlight/mtica_projects/lab3/tff_reg.sv
 F/home/moonlight/mtica_projects/lab3/tff_reg.sv
-!i122 149
+!i122 169
 L0 1 10
 R4
 r1

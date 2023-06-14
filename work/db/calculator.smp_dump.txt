@@ -1,0 +1,8 @@
+
+State Machine - |dev_fsm|state
+Name state.ST_PROC state.ST_RCV_2 state.ST_RCV_1 state.ST_IDLE state.ST_TX 
+state.ST_IDLE 0 0 0 0 0 
+state.ST_RCV_1 0 0 1 1 0 
+state.ST_RCV_2 0 1 0 1 0 
+state.ST_PROC 1 0 0 1 0 
+state.ST_TX 0 0 0 1 1 

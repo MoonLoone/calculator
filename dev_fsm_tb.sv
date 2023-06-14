@@ -47,20 +47,22 @@ module dev_fsm_tb();
 		//skip one edge after reset
 		@(posedge clk);
 		// Custom
-		// write second operand for tests
+		//1) write second operand for tests
 		write_transaction((1<<b_op_2),0,$random,res); 
-		// two operand sum
+		//2) two operand sum
 		write_transaction((1<<b_op_2)|(1<<b_addop),$random,$random,res);
-		//read result
+		//3) read result
 		write_transaction((1<<b_tx),0,0,res);
-		// add operand to result
+		//4) add operand to result
 		write_transaction((1<<b_addres),$random,$random,res);
-		// write second operand for tests
-		//write_transaction((1<<b_op_2),0,$random,res); 
-		// sub operator
+		//5) write second operand for tests
+		write_transaction((1<<b_op_2)|(1<<b_tx),0,$random,res); 
+		//6) sub operator
 		write_transaction((1<<b_subres),$random,0,res);
 		//read result
 		write_transaction((1<<b_tx),0,0,res);
+		//8) write 2 operand and read result
+		write_transaction((1<<b_tx)|(1<<b_op_2),0,0,res);
 		//wait couple clock cycles
 		repeat (5) @(posedge clk);
 		//stop simulation
